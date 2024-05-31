@@ -9,14 +9,28 @@
 /* Begin PBXBuildFile section */
 		22060EF32C01DD4300D85FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22060EF22C01DD4300D85FAD /* AppDelegate.swift */; };
 		22060EF52C01DD4300D85FAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22060EF42C01DD4300D85FAD /* SceneDelegate.swift */; };
-		22060EF72C01DD4300D85FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22060EF62C01DD4300D85FAD /* ViewController.swift */; };
+		22060EF72C01DD4300D85FAD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22060EF62C01DD4300D85FAD /* HomeVC.swift */; };
 		22060EFA2C01DD4300D85FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22060EF82C01DD4300D85FAD /* Main.storyboard */; };
-		22060EFD2C01DD4300D85FAD /* ZStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22060EFB2C01DD4300D85FAD /* ZStore.xcdatamodeld */; };
 		22060EFF2C01DD4500D85FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22060EFE2C01DD4500D85FAD /* Assets.xcassets */; };
 		22060F022C01DD4500D85FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22060F002C01DD4500D85FAD /* LaunchScreen.storyboard */; };
 		22060F0D2C01DD4500D85FAD /* ZStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22060F0C2C01DD4500D85FAD /* ZStoreTests.swift */; };
 		22060F172C01DD4500D85FAD /* ZStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22060F162C01DD4500D85FAD /* ZStoreUITests.swift */; };
 		22060F192C01DD4500D85FAD /* ZStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22060F182C01DD4500D85FAD /* ZStoreUITestsLaunchTests.swift */; };
+		226E175C2C08B39B00259FBC /* FavoriteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226E175B2C08B39B00259FBC /* FavoriteManager.swift */; };
+		229B8D732C06147D00F40FDB /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B8D722C06147D00F40FDB /* HeaderCell.swift */; };
+		22ABF2E42C0882AA00548599 /* OffersHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABF2E32C0882AA00548599 /* OffersHeader.swift */; };
+		22ABF2E62C0891E300548599 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABF2E52C0891E300548599 /* WaterfallLayout.swift */; };
+		22B7739F2C07344100EAB744 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7739E2C07344100EAB744 /* ProductViewModel.swift */; };
+		22B773A12C07346D00EAB744 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B773A02C07346D00EAB744 /* ProductModel.swift */; };
+		22B773A32C0734A900EAB744 /* BooksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B773A22C0734A900EAB744 /* BooksCell.swift */; };
+		22B773A52C07401300EAB744 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B773A42C07401300EAB744 /* RatingView.swift */; };
+		22B773A72C07850F00EAB744 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B773A62C07850F00EAB744 /* ColorCell.swift */; };
+		22C85ABD2C02369B009DFAA7 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C85ABC2C02369B009DFAA7 /* CategoriesViewController.swift */; };
+		22C85AC12C023725009DFAA7 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C85AC02C023725009DFAA7 /* ProductCell.swift */; };
+		22C85AC32C023752009DFAA7 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C85AC22C023752009DFAA7 /* CategoryCell.swift */; };
+		22C85AC52C023885009DFAA7 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C85AC42C023885009DFAA7 /* CoreDataModel.swift */; };
+		22FF87842C04AD320083C48A /* OffersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF87832C04AD320083C48A /* OffersCell.swift */; };
+		55799A8C2C07A0BA0006C049 /* SearchHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55799A8B2C07A0BA0006C049 /* SearchHeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +54,8 @@
 		22060EEF2C01DD4300D85FAD /* ZStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22060EF22C01DD4300D85FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22060EF42C01DD4300D85FAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22060EF62C01DD4300D85FAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22060EF62C01DD4300D85FAD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		22060EF92C01DD4300D85FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		22060EFC2C01DD4300D85FAD /* ZStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZStore.xcdatamodel; sourceTree = "<group>"; };
 		22060EFE2C01DD4500D85FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22060F012C01DD4500D85FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22060F032C01DD4500D85FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +64,21 @@
 		22060F122C01DD4500D85FAD /* ZStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22060F162C01DD4500D85FAD /* ZStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStoreUITests.swift; sourceTree = "<group>"; };
 		22060F182C01DD4500D85FAD /* ZStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		226E175B2C08B39B00259FBC /* FavoriteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteManager.swift; sourceTree = "<group>"; };
+		229B8D722C06147D00F40FDB /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		22ABF2E32C0882AA00548599 /* OffersHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersHeader.swift; sourceTree = "<group>"; };
+		22ABF2E52C0891E300548599 /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		22B7739E2C07344100EAB744 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		22B773A02C07346D00EAB744 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		22B773A22C0734A900EAB744 /* BooksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCell.swift; sourceTree = "<group>"; };
+		22B773A42C07401300EAB744 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		22B773A62C07850F00EAB744 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		22C85ABC2C02369B009DFAA7 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		22C85AC02C023725009DFAA7 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		22C85AC22C023752009DFAA7 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		22C85AC42C023885009DFAA7 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		22FF87832C04AD320083C48A /* OffersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCell.swift; sourceTree = "<group>"; };
+		55799A8B2C07A0BA0006C049 /* SearchHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +129,21 @@
 		22060EF12C01DD4300D85FAD /* ZStore */ = {
 			isa = PBXGroup;
 			children = (
+				55799A8A2C07A05D0006C049 /* Cells */,
+				55962DDC2C064AEF003E1F70 /* ViewModel */,
+				55962DD92C064AAC003E1F70 /* Model */,
 				22060EF22C01DD4300D85FAD /* AppDelegate.swift */,
 				22060EF42C01DD4300D85FAD /* SceneDelegate.swift */,
-				22060EF62C01DD4300D85FAD /* ViewController.swift */,
+				22060EF62C01DD4300D85FAD /* HomeVC.swift */,
+				22ABF2E52C0891E300548599 /* WaterfallLayout.swift */,
+				22C85AC42C023885009DFAA7 /* CoreDataModel.swift */,
+				22C85ABC2C02369B009DFAA7 /* CategoriesViewController.swift */,
+				22B773A42C07401300EAB744 /* RatingView.swift */,
+				226E175B2C08B39B00259FBC /* FavoriteManager.swift */,
 				22060EF82C01DD4300D85FAD /* Main.storyboard */,
 				22060EFE2C01DD4500D85FAD /* Assets.xcassets */,
 				22060F002C01DD4500D85FAD /* LaunchScreen.storyboard */,
 				22060F032C01DD4500D85FAD /* Info.plist */,
-				22060EFB2C01DD4300D85FAD /* ZStore.xcdatamodeld */,
 			);
 			path = ZStore;
 			sourceTree = "<group>";
@@ -128,6 +163,37 @@
 				22060F182C01DD4500D85FAD /* ZStoreUITestsLaunchTests.swift */,
 			);
 			path = ZStoreUITests;
+			sourceTree = "<group>";
+		};
+		55799A8A2C07A05D0006C049 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				55799A8B2C07A0BA0006C049 /* SearchHeaderCell.swift */,
+				22ABF2E32C0882AA00548599 /* OffersHeader.swift */,
+				22C85AC22C023752009DFAA7 /* CategoryCell.swift */,
+				22FF87832C04AD320083C48A /* OffersCell.swift */,
+				22C85AC02C023725009DFAA7 /* ProductCell.swift */,
+				22B773A22C0734A900EAB744 /* BooksCell.swift */,
+				22B773A62C07850F00EAB744 /* ColorCell.swift */,
+				229B8D722C06147D00F40FDB /* HeaderCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		55962DD92C064AAC003E1F70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22B773A02C07346D00EAB744 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55962DDC2C064AEF003E1F70 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				22B7739E2C07344100EAB744 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +327,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22060EF72C01DD4300D85FAD /* ViewController.swift in Sources */,
+				22B7739F2C07344100EAB744 /* ProductViewModel.swift in Sources */,
+				22060EF72C01DD4300D85FAD /* HomeVC.swift in Sources */,
 				22060EF32C01DD4300D85FAD /* AppDelegate.swift in Sources */,
-				22060EFD2C01DD4300D85FAD /* ZStore.xcdatamodeld in Sources */,
+				22B773A32C0734A900EAB744 /* BooksCell.swift in Sources */,
+				22B773A12C07346D00EAB744 /* ProductModel.swift in Sources */,
+				229B8D732C06147D00F40FDB /* HeaderCell.swift in Sources */,
+				55799A8C2C07A0BA0006C049 /* SearchHeaderCell.swift in Sources */,
+				22C85AC52C023885009DFAA7 /* CoreDataModel.swift in Sources */,
+				22B773A72C07850F00EAB744 /* ColorCell.swift in Sources */,
+				22C85AC32C023752009DFAA7 /* CategoryCell.swift in Sources */,
+				22B773A52C07401300EAB744 /* RatingView.swift in Sources */,
+				22FF87842C04AD320083C48A /* OffersCell.swift in Sources */,
+				22C85AC12C023725009DFAA7 /* ProductCell.swift in Sources */,
+				22C85ABD2C02369B009DFAA7 /* CategoriesViewController.swift in Sources */,
 				22060EF52C01DD4300D85FAD /* SceneDelegate.swift in Sources */,
+				226E175C2C08B39B00259FBC /* FavoriteManager.swift in Sources */,
+				22ABF2E62C0891E300548599 /* WaterfallLayout.swift in Sources */,
+				22ABF2E42C0882AA00548599 /* OffersHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +533,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +561,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,19 +687,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		22060EFB2C01DD4300D85FAD /* ZStore.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				22060EFC2C01DD4300D85FAD /* ZStore.xcdatamodel */,
-			);
-			currentVersion = 22060EFC2C01DD4300D85FAD /* ZStore.xcdatamodel */;
-			path = ZStore.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 22060EE72C01DD4300D85FAD /* Project object */;
 }
